@@ -17,7 +17,6 @@
   (use-package evil-snipe
     :init
     (progn
-      (message "[evil-snipe/packages.el] use-package:init")
       (evil-snipe-mode)
       (setq evil-snipe-scope 'buffer
             evil-snipe-enable-highlight nil
