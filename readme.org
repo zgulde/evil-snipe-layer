@@ -1,0 +1,22 @@
+#+TITLE: evil-snipe Layer
+
+This is my own configuration/customization of evil-snipe with spacemacs, as I
+don't like how the layer that comes with spacemacs works.
+
+Basically I want evil-snipe to provide the functionality of [[https://github.com/dahu/vim-fanfingtastic][vim-fanfingtastic]],
+which lets =f=, =F=, =t=, and =T= work across multiple lines, but without the
+other bits of functionality that normally come with it.
+
+* Installation
+
+I think the easiest thing to do is just put this whole project inside of the
+=private= directory inside of your =.emacs.d=, but I'm not well-versed in
+spacemacs convetions or idioms.
+
+#+BEGIN_SRC 
+git clone <this url> ~/.emacs.d/private/evil-snipe
+#+END_SRC
+
+This will replace the default =evil-snipe= layer. Then add =evil-snipe= to the
+configured layers in your =.spacemacs= to load it.
+
